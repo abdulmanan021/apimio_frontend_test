@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: Darker Grotesque;
+    background-color: #f6f6f6;
+}
+
+.interaction_btn {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0px;
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0, 0.1);
+    font-size: 20px;
+    transition: all ease-in-out 300ms;
+}
+
+.interaction_btn:focus {
+    background-color: rgb(31, 70, 244, 0.2);
+}
+
+.interaction_btn:hover {
+    background-color: rgb(255, 255, 255, 0.3);
+    box-shadow: 1px 1px 5px 1px rgb(0, 0, 0, 0.3);
+}
+
+.interaction_link {
+    font-size: 20px;
+    color: #2047f4;
+    text-decoration: none;
+    transition: all ease-in-out 300ms;
+}
+
+.interaction_link:hover {
+    letter-spacing: 1px;
+}
